@@ -47,7 +47,7 @@ public class Person {
     }
 
     //new method
-    public void getUserInput (){
+    public void getUserInput(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first name: ");

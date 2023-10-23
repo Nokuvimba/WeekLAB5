@@ -7,7 +7,12 @@ public class Main {
 
         Person student1 = new Person( "Natalie", "Chiyaka", 21);
         System.out.println( "Details are: " +" " + student1.getFirstName());
-
         student1.displayInfo();
+        //
+        Person user = new Person();
+        //call the user input
+        user.getUserInput();
+
+        user.displayInfo();
         }
     }
